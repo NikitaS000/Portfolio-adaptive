@@ -2,6 +2,25 @@
 a {
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
+.up {
+    width: 45px;
+    height: 45px;
+    background-color: #5B7065;
+    border: #304040 3px solid;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: black;
+}
+.wrapper a {
+    text-decoration: none;
+}
+
 
 @media screen and (min-width:840px) {
     .phone-show {
@@ -39,6 +58,7 @@ a {
         background-color: #304040;
         display: flex;
         justify-content: center;
+        z-index: 1;
     }
     .header ul {
         display: flex;
